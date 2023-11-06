@@ -1,5 +1,5 @@
 # BigTour
-## simple Booking website
+## Elegant Grid Webpage
 - [Live Demo](https://bigtour.netlify.app/)
 <br/>
 <p align="center">
