@@ -16,22 +16,26 @@
   display: grid;
   grid-template-columns: min-content max-content;
   gap: 2rem;
-  row-gap: 5vh;
   align-items: center;
+  @media only screen and (max-width: b.$media-lap) {
+   padding: 1rem;
+   row-gap: 1vh;
+  }
  }
  &__img {
   border-radius: 50%;
-  width: 8rem;
   display: block;
   @media only screen and (max-width: b.$media-lap) {
-   width: 10rem;
+   width: 4rem;
   }
  }
  &__host {
-  font-size: 1.3rem;
   font-weight: 800;
   text-transform: uppercase;
   color: b.$color-grey-l-2;
   margin-top: -3px;
+  @media only screen and (max-width: b.$media-lap) {
+   font-size: 1rem;
+  }
  }
 }
