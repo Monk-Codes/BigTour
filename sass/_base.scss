@@ -1,0 +1,61 @@
+// COLOR VARIABLES
+$color-primary: #c69963;
+$color-primary-d: #b28451;
+
+$color-secondary: #101d2c;
+
+$color-grey-l-1: #f9f7f6;
+$color-grey-l-2: #aaa;
+
+$color-grey-d-1: #54483a;
+$color-grey-d-2: #6d5d4b;
+
+// FONT VARIABLES
+$font-primary: "Nunito", sans-serif;
+$font-display: "Josefin Sans", sans-serif;
+
+$media-l: 75em;
+$media-lap: 90em;
+$media-s: 27em;
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+html {
+ box-sizing: border-box;
+ font-size: 62.5%;
+ @media only screen and (max-width: $media-l) {
+  font-size: 50%;
+ }
+ @media only screen and (max-width: $media-lap) {
+  font-size: 45%;
+ }
+ @media only screen and (max-width: $media-s) {
+  font-size: 40%;
+ }
+}
+body {
+ font-family: $font-primary;
+ color: var($color-grey-d-2);
+ font-weight: 300;
+ line-height: 1.6;
+}
+.container {
+ display: grid;
+ grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+ grid-template-columns:
+  [side-start]8rem [side-end
+  full-start]minmax(6rem, 1fr)
+  [center-start]repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end]
+  minmax(6rem, 1fr) [full-end];
+ @media only screen and (max-width: $media-lap) {
+  grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns:
+   [full-start]minmax(6rem, 1fr)
+   [center-start]repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end]
+   minmax(6rem, 1fr) [full-end];
+ }
+}

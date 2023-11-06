@@ -1,0 +1,48 @@
+@use "base" as b;
+.footer {
+ background-color: b.$color-secondary;
+ grid-column: full-start/full-end;
+ @media only screen and (max-width: b.$media-lap) {
+  padding: 3rem;
+ }
+ .nav {
+  list-style: none;
+  display: grid;
+  align-items: baseline;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  &__link:link,
+  &__link:visited {
+   font-size: 1rem;
+   font-weight: 100;
+   padding: 1rem;
+   color: white;
+   text-decoration: none;
+   font-family: b.$font-display;
+   text-transform: uppercase;
+   text-align: center;
+   display: block;
+   transition: all 0.2s;
+   //  background-color: rgba($color: #fff, $alpha: 0.7);
+  }
+  &__link:hover,
+  &__link:active {
+   color: rgba(168, 82, 249, 0.987);
+   transform: translateY(-0.1rem);
+   cursor: pointer;
+  }
+ }
+}
+.copyright {
+ font-size: 1.5rem;
+ font-weight: 700;
+ margin-right: auto;
+ margin-left: auto;
+ color: b.$color-grey-l-2;
+ margin-top: 5rem;
+ text-align: center;
+ width: 60%;
+ @media only screen and (max-width: b.$media-lap) {
+  font-size: 3rem;
+ }
+}

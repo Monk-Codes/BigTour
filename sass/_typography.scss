@@ -1,0 +1,68 @@
+@use "base" as b;
+%heading {
+ font-family: b.$font-display;
+ font-weight: 400;
+}
+.h1 {
+ @extend %heading;
+ font-size: 4.5rem;
+ color: b.$color-grey-l-1;
+ line-height: 1;
+ text-transform: uppercase;
+}
+.h2 {
+ @extend %heading;
+ font-size: 4rem;
+ font-style: italic;
+ line-height: 1;
+ &--l {
+  color: b.$color-grey-l-1;
+ }
+ &--d {
+  color: b.$color-grey-d-1;
+ }
+}
+.h3 {
+ @extend %heading;
+ font-size: 1.8rem;
+ font-weight: 800;
+ color: b.$color-grey-d-2;
+ text-transform: uppercase;
+}
+.h4 {
+ @extend %heading;
+ font-size: 2rem;
+ &--l {
+  color: b.$color-grey-l-2;
+ }
+ &--d {
+  color: b.$color-grey-d-1;
+ }
+}
+.btn {
+ background-color: b.$color-primary;
+ color: white;
+ border: none;
+ border-radius: 0;
+ font-family: b.$font-display;
+ font-size: 1.5rem;
+ text-transform: uppercase;
+ padding: 2rem 3rem;
+ cursor: pointer;
+ transition: all 0.2s;
+ &:hover {
+  background-color: b.$color-primary-d;
+ }
+}
+.margin-s {
+ margin-bottom: 2rem;
+}
+.margin-m {
+ margin-bottom: 4rem;
+}
+.margin-l {
+ margin-bottom: 6rem;
+}
+.margin-xl {
+ margin-bottom: 8rem;
+}

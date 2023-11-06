@@ -1,0 +1,40 @@
+@use "base" as b;
+.sidebar {
+ background-color: b.$color-primary;
+ grid-column: side-start/side-end;
+ grid-row: 1/-1;
+ display: flex;
+ justify-content: center;
+ @media only screen and (max-width: b.$media-lap) {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  justify-content: flex-start;
+  align-items: center;
+ }
+}
+.nav-btn {
+ border: none;
+ border-radius: 0;
+ background-color: white;
+ height: 2px;
+ width: 5rem;
+ margin-top: 4rem;
+ &::before,
+ &::after {
+  background-color: white;
+  height: 2px;
+  width: 5rem;
+  content: "";
+  display: block;
+ }
+ &::before {
+  transform: translateY(-1.5rem);
+ }
+ &::after {
+  transform: translateY(1.3rem);
+ }
+ @media only screen and (max-width: b.$media-lap) {
+  margin-top: 0;
+  margin-left: 0.5rem;
+ }
+}
