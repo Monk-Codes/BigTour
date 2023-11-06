@@ -25,6 +25,8 @@
  &__img {
   border-radius: 50%;
   display: block;
+  width: 6rem;
+  padding: 1rem;
   @media only screen and (max-width: b.$media-lap) {
    width: 4rem;
   }
