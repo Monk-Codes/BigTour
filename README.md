@@ -4,7 +4,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/MonkCodes/BigTour">
-    <img src="images/A.png" alt="Logo" width="80" height="80">
+<img src="logo.png" alt="image" width="500" height="300">
   </a>
 
   <h3 align="center">BigTour</h3>
@@ -32,13 +32,11 @@
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
 * [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
 
 ## About The Project
-
-![Screen Shot](https://BigTour.netlify.app/)
+![Screenshot (23)](https://github.com/Monk-Codes/BigTour/assets/84877191/cf55690e-3b88-4030-acd2-aa614f8345ea)
 
 There are many great Booking sites available on GitHub, however, I didn't find one that really suit my needs so I created this .This project is still in WIP.
 
