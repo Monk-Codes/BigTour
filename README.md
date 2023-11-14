@@ -3,7 +3,7 @@
 - [Live Demo](https://bigtour.netlify.app/)
 <br/>
 <p align="center">
-  <a href="https://github.com/MonkCodes/BigTour">
+  <a href="https://github.com/Monk-Codes/BigTour">
 <img src="logo.png" alt="image" width="500" height="300">
   </a>
 
@@ -13,18 +13,18 @@
     Booking made simple.
     <br/>
     <br/>
-    <a href="https://github.com/MonkCodes/BigTour"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Monk-Codes/BigTour"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/MonkCodes/BigTour">View Demo</a>
+    <a href="https://github.com/Monk-Codes/BigTour">View Demo</a>
     .
-    <a href="https://github.com/MonkCodes/BigTour/issues">Report Bug</a>
+    <a href="https://github.com/Monk-Codes/BigTour/issues">Report Bug</a>
     .
-    <a href="https://github.com/MonkCodes/BigTour/issues">Request Feature</a>
+    <a href="https://github.com/Monk-Codes/BigTour/issues">Request Feature</a>
   </p>
 </p>
 
-![Forks](https://img.shields.io/github/forks/MonkCodes/BigTour?style=social) ![Stargazers](https://img.shields.io/github/stars/MonkCodes/BigTour?style=social) 
+![Forks](https://img.shields.io/github/forks/Monk-Codes/BigTour?style=social) ![Stargazers](https://img.shields.io/github/stars/Monk-Codes/BigTour?style=social) 
 
 ## Table Of Contents
 
@@ -61,15 +61,15 @@ To get a local copy up and running follow these simple example steps.
 
 ## Roadmap
 
-See the [open issues](https://github.com/MonkCodes/BigTour/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Monk-Codes/BigTour/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/MonkCodes/BigTour/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Monk-Codes/BigTour/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/MonkCodes/BigTour/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+* Please also read through the [Code Of Conduct](https://github.com/Monk-Codes/BigTour/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -83,4 +83,3 @@ Contributions are what make the open source community such an amazing place to b
 
 * **Monk-Codes** - *FRONTEND DEVELOPER* - [Monk-Codes](https://github.com/Monk-Codes) - **
 
-## Acknowledgements
